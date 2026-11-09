@@ -1,59 +1,142 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+<div align="center">
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+# 🌸 ÉCLORIA
 
-## About Laravel
+### E-Commerce-Plattform für Kosmetik
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+[![Laravel](https://img.shields.io/badge/Laravel-12.x-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)](https://laravel.com)
+[![PHP](https://img.shields.io/badge/PHP-8.2-777BB4?style=for-the-badge&logo=php&logoColor=white)](https://php.net)
+[![MySQL](https://img.shields.io/badge/MySQL-8.0-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](https://mysql.com)
+[![Bootstrap](https://img.shields.io/badge/Bootstrap-5.3-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)](https://getbootstrap.com)
+[![Vite](https://img.shields.io/badge/Vite-7.x-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev)
+[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+</div>
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+---
 
-## Learning Laravel
+## 📌 Über das Projekt
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+**ÉCLORIA** ist eine moderne und vollständige E-Commerce-Plattform für Kosmetik, entwickelt mit **Laravel 12** und **MySQL**. Sie bietet ein nahtloses Einkaufserlebnis für Kunden und ein fortschrittliches Verwaltungssystem für Administratoren.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+Das Projekt wurde als professionelle Full-Stack-Webanwendung konzipiert und folgt den Best Practices der modernen Softwareentwicklung (MVC-Architektur, Service Layer, Datenbanktransaktionen).
 
-## Laravel Sponsors
+---
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+## ✨ Funktionen
 
-### Premium Partners
+### 👤 Kundenbereich
+- 🔐 Vollständige Authentifizierung (Registrierung / Anmeldung / Abmeldung)
+- 🛍️ Produktkatalog mit erweiterten Filtern (Kategorie, Marke, Suche, Sortierung)
+- 🛒 Warenkorb und Favoritenliste
+- 💳 Vollständiger Checkout (Lieferung nach Hause / Abholung im Geschäft)
+- 💰 Zahlung bei Lieferung oder im Geschäft
+- 📦 Bestellhistorie und Echtzeit-Verfolgung
+- ↩️ Rücksendeanfragen (teilweise / vollständig)
+- ⭐ Kundenbewertungen (nur nach Lieferung)
+- 💬 Beschwerden
+- 👤 Profil- und Adressverwaltung
+- 🔍 **Live-Suche** (instant search)
+- 🌍 Mehrsprachig (Französisch, Englisch, Deutsch)
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+### 🛠️ Admin-Bereich
+- 📊 Dashboard mit Echtzeit-Statistiken
+- 📦 Produkt-CRUD (mit Bild-Upload)
+- 🏷️ Kategorie- und Marken-CRUD
+- 📋 Bestellverwaltung (Status, Zahlungen)
+- 👥 Kunden- und Mitarbeiterverwaltung (mit individuellen Berechtigungen)
+- 🎁 Aktions-CRUD (Prozentsatz oder Festbetrag)
+- ↩️ Rücksendeverwaltung (Genehmigung, Empfang, Rückerstattung)
+- 🚚 Lieferanten- und Einkaufsverwaltung
+- 📦 Lagerverwaltung mit **FEFO** (First Expired, First Out)
+- 🧾 Chargenverfolgung und Ablaufdaten
+- 💬 Beschwerdeverwaltung
 
-## Contributing
+---
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+## 🏗️ Technische Architektur
 
-## Code of Conduct
+---
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+## 🛠️ Tech-Stack
 
-## Security Vulnerabilities
+| Technologie | Version | Rolle |
+|-------------|---------|-------|
+| **Laravel** | 12.x | Backend-Framework |
+| **PHP** | 8.2 | Backend-Sprache |
+| **MySQL** | 8.0 | Datenbank |
+| **Blade** | - | Template-Engine |
+| **Bootstrap** | 5.3 | CSS-Framework |
+| **Vite** | 7.x | Build-Tool |
+| **Eloquent ORM** | - | ORM |
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+---
 
-## License
+## ⚙️ Installation
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+### Voraussetzungen
+
+- PHP >= 8.2
+- Composer
+- MySQL >= 8.0
+- Node.js >= 18
+- NPM
+
+### Schritte
+
+```bash
+# 1. Repository klonen
+git clone https://github.com/lobnaelamrany/ecloria-site.git
+cd ecloria-site
+
+# 2. PHP-Abhängigkeiten installieren
+composer install
+
+# 3. JS-Abhängigkeiten installieren
+npm install
+
+# 4. .env-Datei kopieren
+cp .env.example .env
+
+# 5. Anwendungsschlüssel generieren
+php artisan key:generate
+
+# 6. Datenbank in .env konfigurieren
+# DB_DATABASE=ecloria
+# DB_USERNAME=root
+# DB_PASSWORD=
+
+# 7. Migrationen und Seeder ausführen
+php artisan migrate:fresh --seed
+
+# 8. Storage-Link erstellen
+php artisan storage:link
+
+# 9. Server starten
+php artisan serve
+npm run dev
+🔑 Testkonten
+Rolle	E-Mail	Passwort
+👑 Admin	admin@ecloria.ma	password
+👔 Mitarbeiter	employe1@ecloria.ma	password
+👤 Kunde	sara@test.ma	password
+🧪 Tests
+bash
+php artisan test
+📄 Lizenz
+Dieses Projekt ist unter der MIT-Lizenz lizenziert – siehe LICENSE für Details.
+
+👨‍💻 Autor
+Lobna El Amrany
+
+GitHub: @lobnaelamrany
+
+E-Mail: lobnaelamrany4@gmail.com
+
+<div align="center">
+⭐ Wenn Ihnen dieses Projekt gefällt, geben Sie ihm bitte einen Stern! ⭐
+
+Mit ❤️ entwickelt von Lobna El Amrany
+
+</div> ```
+
