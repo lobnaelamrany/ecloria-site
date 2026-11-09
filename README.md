@@ -1,3 +1,4 @@
+
 <div align="center">
 
 # 🌸 ÉCLORIA
@@ -75,96 +76,142 @@ Das Projekt wurde als professionelle Full-Stack-Webanwendung konzipiert und folg
 │           DATABASE (MySQL)              │
 │              25 Tabellen                │
 └─────────────────────────────────────────┘
+```
 
+---
 
+## 🛠️ Tech-Stack
 
-🛠️ Tech-Stack
-Technologie	Version	Rolle
-Laravel	12.x	Backend-Framework
-PHP	8.2	Backend-Sprache
-MySQL	8.0	Datenbank
-Blade	-	Template-Engine
-Bootstrap	5.3	CSS-Framework
-Vite	7.x	Build-Tool
-Eloquent ORM	-	Object-Relational Mapping
+| Technologie | Version | Rolle |
+|---|---|---|
+| Laravel | 12.x | Backend-Framework |
+| PHP | 8.2 | Backend-Sprache |
+| MySQL | 8.0 | Datenbank |
+| Blade | - | Template-Engine |
+| Bootstrap | 5.3 | CSS-Framework |
+| Vite | 7.x | Build-Tool |
+| Eloquent ORM | - | Object-Relational Mapping |
 
+---
 
-⚙️ Installation
-Voraussetzungen
+## ⚙️ Installation
+
+### Voraussetzungen
+
 - PHP >= 8.2
 - Composer
 - MySQL >= 8.0
 - Node.js >= 18
 - NPM
-Schritte
-1. Repository klonen
+
+### Installationsschritte
+
+**1. Repository klonen**
+
+```bash
 git clone https://github.com/lobnaelamrany/ecloria-site.git
 cd ecloria-site
+```
 
+**2. PHP-Abhängigkeiten installieren**
 
-2. PHP-Abhängigkeiten installieren
+```bash
 composer install
+```
 
+**3. JavaScript-Abhängigkeiten installieren**
 
-3. JavaScript-Abhängigkeiten installieren
+```bash
 npm install
+```
 
+**4. .env-Datei erstellen**
 
-4. .env-Datei erstellen
+```bash
 cp .env.example .env
+```
 
+**5. Anwendungsschlüssel generieren**
 
-5. Anwendungsschlüssel generieren
+```bash
 php artisan key:generate
+```
 
+**6. Datenbank konfigurieren**
 
-6. Datenbank konfigurieren
+Die folgenden Einstellungen müssen in der `.env`-Datei angepasst werden:
 
-Die folgenden Einstellungen müssen in der .env-Datei angepasst werden:
+```env
 DB_DATABASE=ecloria
 DB_USERNAME=root
 DB_PASSWORD=
+```
 
+**7. Migrationen und Seeder ausführen**
 
-7. Migrationen und Seeder ausführen
+```bash
 php artisan migrate:fresh --seed
+```
 
+**8. Storage-Link erstellen**
 
-8. Storage-Link erstellen
+```bash
 php artisan storage:link
+```
 
-
-9. Anwendung starten
+**9. Anwendung starten**
 
 Terminal 1:
-php artisan serve
 
+```bash
+php artisan serve
+```
 
 Terminal 2:
+
+```bash
 npm run dev
+```
 
+---
 
+## 🔑 Testkonten
 
-🔑 Testkonten
-Rolle	E-Mail	Passwort
-👑 Admin	admin@ecloria.ma	password
-👔 Mitarbeiter	employe1@ecloria.ma	password
-👤 Kunde	sara@test.ma	password
+| Rolle | E-Mail | Passwort |
+|---|---|---|
+| 👑 Admin | admin@ecloria.ma | password |
+| 👔 Mitarbeiter | employe1@ecloria.ma | password |
+| 👤 Kunde | sara@test.ma | password |
 
+---
 
-🧪 Tests
+## 🧪 Tests
+
 Um die Tests auszuführen, verwende folgenden Befehl:
+
+```bash
 php artisan test
+```
 
+---
 
+## 📄 Lizenz
 
-📄 Lizenz
-Dieses Projekt ist unter der MIT-Lizenz lizenziert – siehe LICENSE für weitere Details.
+Dieses Projekt ist unter der **MIT-Lizenz** lizenziert.
 
-👩‍💻 Autorin
-Lobna El Amrany
-- GitHub: @lobnaelamrany
-- E-Mail: lobnaelamrany4@gmail.com
+Weitere Informationen findest du in der Datei [LICENSE](LICENSE).
+
+---
+
+## 👩‍💻 Autorin
+
+**Lobna El Amrany**
+
+- GitHub: [@lobnaelamrany](https://github.com/lobnaelamrany)
+- E-Mail: [lobnaelamrany4@gmail.com](mailto:lobnaelamrany4@gmail.com)
+
+---
+
 <div align="center">
 
 ⭐ Wenn Ihnen dieses Projekt gefällt, geben Sie ihm bitte einen Stern! ⭐
