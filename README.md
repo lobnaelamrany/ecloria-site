@@ -10,7 +10,6 @@
 [![MySQL](https://img.shields.io/badge/MySQL-8.0-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](https://mysql.com)
 [![Bootstrap](https://img.shields.io/badge/Bootstrap-5.3-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)](https://getbootstrap.com)
 [![Vite](https://img.shields.io/badge/Vite-7.x-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev)
-[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 
 </div>
 
@@ -18,11 +17,22 @@
 
 ## 📌 Über das Projekt
 
-**ÉCLORIA** ist eine moderne und vollständige E-Commerce-Plattform für Kosmetik, entwickelt mit **Laravel 12** und **MySQL**.
+**ÉCLORIA** ist eine moderne E-Commerce-Plattform für Kosmetikprodukte, entwickelt mit **Laravel 12** und **MySQL**.
 
-Sie bietet ein nahtloses Einkaufserlebnis für Kunden und ein fortschrittliches Verwaltungssystem für Administratoren.
+Sie bietet ein komfortables Einkaufserlebnis für Kunden sowie ein umfassendes Verwaltungssystem für Administratoren.
 
-Das Projekt wurde als professionelle Full-Stack-Webanwendung konzipiert und folgt den Best Practices der modernen Softwareentwicklung (MVC-Architektur, Service Layer und Datenbanktransaktionen).
+Das Projekt wurde als Full-Stack-Webanwendung entwickelt und basiert auf der MVC-Architektur, einem Service Layer und Datenbanktransaktionen.
+
+---
+
+## 👩‍💻 Meine Rolle & Beitrag
+
+Dies ist ein **Einzelprojekt (Solo-Projekt)**. Ich habe die gesamte Anwendung selbst konzipiert und entwickelt:
+
+- **Konzeption & Architektur:** Entwurf der relationalen Datenbank mit 25 Tabellen und Definition der Geschäftslogik.
+- **Backend-Entwicklung:** Implementierung von Authentifizierung, Checkout, Bestellverwaltung und FEFO-Lagerverwaltung.
+- **Frontend-Entwicklung:** Gestaltung der Benutzeroberflächen mit Blade, Bootstrap und eigenem CSS-Design.
+- **Qualitätssicherung:** Datenbanktransaktionen und automatisierte Tests.
 
 ---
 
@@ -30,55 +40,51 @@ Das Projekt wurde als professionelle Full-Stack-Webanwendung konzipiert und folg
 
 ### 👤 Kundenbereich
 
-- 🔐 Vollständige Authentifizierung (Registrierung / Anmeldung / Abmeldung)
-- 🛍️ Produktkatalog mit erweiterten Filtern (Kategorie, Marke, Suche und Sortierung)
-- 🛒 Warenkorb und Favoritenliste
-- 💳 Vollständiger Checkout (Lieferung nach Hause / Abholung im Geschäft)
-- 💰 Zahlung bei Lieferung oder im Geschäft
-- 📦 Bestellhistorie und Echtzeit-Verfolgung
-- ↩️ Rücksendeanfragen (teilweise / vollständig)
-- ⭐ Kundenbewertungen (nur nach Lieferung)
-- 💬 Beschwerden
-- 👤 Profil- und Adressverwaltung
-- 🔍 **Live-Suche** (Instant Search)
-- 🌍 Mehrsprachigkeit (Französisch, Englisch und Deutsch)
+- Registrierung und Anmeldung.
+- Produktkatalog mit Filtern und Suche.
+- Warenkorb und Favoritenliste.
+- Checkout mit Lieferung oder Abholung.
+- Zahlung bei Lieferung oder im Geschäft.
+- Bestellhistorie und Statusverfolgung.
+- Rücksendeanfragen und Kundenbewertungen.
+- Beschwerden und Profilverwaltung.
+- Live-Suche.
+- Mehrsprachigkeit (FR / EN / DE).
 
 ### 🛠️ Admin-Bereich
 
-- 📊 Dashboard mit Echtzeit-Statistiken
-- 📦 Produkt-CRUD (mit Bild-Upload)
-- 🏷️ Kategorie- und Marken-CRUD
-- 📋 Bestellverwaltung (Status und Zahlungen)
-- 👥 Kunden- und Mitarbeiterverwaltung (mit individuellen Berechtigungen)
-- 🎁 Aktions-CRUD (Prozentsatz oder Festbetrag)
-- ↩️ Rücksendeverwaltung (Genehmigung, Empfang und Rückerstattung)
-- 🚚 Lieferanten- und Einkaufsverwaltung
-- 📦 Lagerverwaltung mit **FEFO** (First Expired, First Out)
-- 🧾 Chargenverfolgung und Ablaufdaten
-- 💬 Beschwerdeverwaltung
+- Dashboard mit Statistiken.
+- Produkt-, Kategorie- und Markenverwaltung.
+- Bestell- und Zahlungsverwaltung.
+- Kunden- und Mitarbeiterverwaltung.
+- Verwaltung von Aktionen und Rabatten.
+- Rücksende- und Beschwerdeverwaltung.
+- Lieferanten- und Einkaufsverwaltung.
+- FEFO-Lagerverwaltung (First Expired, First Out).
+- Chargenverfolgung und Ablaufdaten.
 
 ---
 
 ## 🏗️ Technische Architektur
 
 ```text
-┌─────────────────────────────────────────┐
-│           FRONTEND (Blade)              │
-│  Bootstrap 5 + Custom CSS Design System │
-└─────────────────┬───────────────────────┘
+┌─────────────────────────────────────┐
+│             FRONTEND                │
+│       Blade + Bootstrap 5           │
+│         Custom CSS                  │
+└─────────────────┬───────────────────┘
                   │
-┌─────────────────▼───────────────────────┐
-│         BACKEND (Laravel 12)            │
-│  Controllers → Services → Models        │
-└─────────────────┬───────────────────────┘
+┌─────────────────▼───────────────────┐
+│             BACKEND                 │
+│           Laravel 12                │
+│     Controllers → Services → Models │
+└─────────────────┬───────────────────┘
                   │
-┌─────────────────▼───────────────────────┐
-│           DATABASE (MySQL)              │
-│              25 Tabellen                │
-└─────────────────────────────────────────┘
+┌─────────────────▼───────────────────┐
+│             DATABASE                │
+│          MySQL – 25 Tabellen        │
+└─────────────────────────────────────┘
 ```
-
----
 
 ## 🛠️ Tech-Stack
 
@@ -90,7 +96,7 @@ Das Projekt wurde als professionelle Full-Stack-Webanwendung konzipiert und folg
 | Blade | - | Template-Engine |
 | Bootstrap | 5.3 | CSS-Framework |
 | Vite | 7.x | Build-Tool |
-| Eloquent ORM | - | Object-Relational Mapping |
+| Eloquent ORM | - | Datenbankverwaltung |
 
 ---
 
@@ -139,7 +145,7 @@ php artisan key:generate
 
 **6. Datenbank konfigurieren**
 
-Die folgenden Einstellungen müssen in der `.env`-Datei angepasst werden:
+Die folgenden Einstellungen in der `.env`-Datei anpassen:
 
 ```env
 DB_DATABASE=ecloria
@@ -175,19 +181,9 @@ npm run dev
 
 ---
 
-## 🔑 Testkonten
-
-| Rolle | E-Mail | Passwort |
-|---|---|---|
-| 👑 Admin | admin@ecloria.ma | password |
-| 👔 Mitarbeiter | employe1@ecloria.ma | password |
-| 👤 Kunde | sara@test.ma | password |
-
----
-
 ## 🧪 Tests
 
-Um die Tests auszuführen, verwende folgenden Befehl:
+Um die Tests auszuführen:
 
 ```bash
 php artisan test
@@ -195,20 +191,12 @@ php artisan test
 
 ---
 
-## 📄 Lizenz
-
-Dieses Projekt ist unter der **MIT-Lizenz** lizenziert.
-
-Weitere Informationen findest du in der Datei [LICENSE](LICENSE).
-
----
-
 ## 👩‍💻 Autorin
 
 **Lobna El Amrany**
 
-- GitHub: [@lobnaelamrany](https://github.com/lobnaelamrany)
-- E-Mail: [lobnaelamrany4@gmail.com](mailto:lobnaelamrany4@gmail.com)
+- **GitHub:** [@lobnaelamrany](https://github.com/lobnaelamrany)
+- **E-Mail:** [lobnaelamrany4@gmail.com](mailto:lobnaelamrany4@gmail.com)
 
 ---
 
